@@ -1,3 +1,6 @@
+/// <summary>
+/// Stat modifiers for equipment or spell effects
+/// </summary>
 enum StatModifierType
 {
     Gold,
@@ -5,6 +8,7 @@ enum StatModifierType
     Stamina,
     Heal,
     Resources,
+    // extra hit when attacking
     ExtraHit,
     Defense,
     Attack
