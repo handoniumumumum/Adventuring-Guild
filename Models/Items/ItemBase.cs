@@ -4,18 +4,16 @@ using System.Collections.Generic;
 public namespace AdventuringGuild
 {
 
-
-
 public class ItemBase : Node
 {
     private string name;
-    private int type;
+    private ItemType itemType;
 
     private Dictionary<Recipe> itemRecipes;
 
     public ItemBase()
     {
-        type = 4;
+        itemType = 2;
         name = "Default";
         itemRecipes = null;
     }
