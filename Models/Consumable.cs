@@ -3,13 +3,12 @@ using System;
 using System.Collections.Generic;
 public namespace AdventuringGuild
 {
-public class Equipment : ItemBase
+public class Consumable : ItemBase
 {
-    
-    public Equipment()
+    public Effect effect;
+    public Consumable()
     {
-        base();
-        itemRecipes = null;
+        
     }
 
 }

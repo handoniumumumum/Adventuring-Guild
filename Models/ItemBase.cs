@@ -8,6 +8,7 @@ public namespace AdventuringGuild
 
 public class ItemBase : Node
 {
+    private string name;
     private int type;
 
     private Dictionary<Recipe> itemRecipes;
@@ -15,6 +16,7 @@ public class ItemBase : Node
     public ItemBase()
     {
         type = 4;
+        name = "Default";
         itemRecipes = null;
     }
 }

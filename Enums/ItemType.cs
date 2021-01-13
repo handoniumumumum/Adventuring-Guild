@@ -1,10 +1,9 @@
 public namespace AdventuringGuild
 {
 
-public enum ItemType {
-    Wildlife = 1,
-    Rock = 2,
-    Mineral = 3,
-    Misc = 4
+    public enum ItemType {
+    Seed = 1,
+    Crafted = 2,
+    Nonrenewable = 3
 }
 }
