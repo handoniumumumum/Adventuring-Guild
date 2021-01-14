@@ -1,10 +1,11 @@
 using System.Collections.Generic;
 namespace AdventuringGuild{
-    class Inventory
+    public class Inventory
     {
+        private Dictionary<ItemBase, float> inventoryDictionary;
         public Inventory()
         {
-            private Dictionary<ItemBase, float>
+            
         }
     }
 }
