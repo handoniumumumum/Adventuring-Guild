@@ -5,7 +5,7 @@ namespace AdventuringGuild{
         private Dictionary<ItemBase, float> inventoryDictionary;
         public Inventory()
         {
-            
+            inventoryDictionary = new Dictionary<ItemBase, float>();
         }
     }
 }
